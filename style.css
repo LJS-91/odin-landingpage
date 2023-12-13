@@ -6,4 +6,63 @@ body {
     flex-direction: column;
   }
 
+  header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+  }
+
+  .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+ header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    list-style-type: none;
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .intro {
+    display: flex;
+    background-color: #1F2937;
+    padding: 100px;
+    flex: auto;
+    gap: 24px;
+  }
+
+  .left-intro {
+    flex: 1;
+  }
+  .right-intro {
+    flex: none;
+  }
+
+  .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  .button1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 24px;
+    border: 0px;
+    padding: 18px 24px;
+    margin: 12px 0;
+    font-size: 18px;
+  }
+
   
