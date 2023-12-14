@@ -6,8 +6,8 @@ body {
     flex-direction: column;
   }
 
-  header{
-    background-color: #1F2937;
+  header {
+    background-color: rgb(31, 43, 30);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,7 +15,10 @@ body {
   }
 
   .logo {
-    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: narrower;
+    font-size: 32px;
+    font-variant: small-caps;
     color: #F9FAF8;
   }
 
@@ -26,12 +29,13 @@ body {
     gap: 12px;
     list-style-type: none;
     font-size: 18px;
+    font-weight: lighter;
     color: #E5E7EB;
   }
 
   .intro {
     display: flex;
-    background-color: #1F2937;
+    background-color: rgb(31, 43, 30);
     padding: 100px;
     flex: auto;
     gap: 24px;
@@ -48,21 +52,119 @@ body {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    padding: 0 0 10px 0;
   }
 
   .subtitle {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0 0 10px 0;
   }
 
   .button1 {
-    background-color: #3882F6;
+    background-color: #d598ba;
     color: #F9FAF8;
-    border-radius: 24px;
+    border-radius: 80px;
     border: 0px;
     padding: 18px 24px;
     margin: 12px 0;
     font-size: 18px;
   }
 
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+  }
+
+  .infoheader {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 0 0 60px 0;
+  } 
+
+  .infocards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+  }
   
+  .quote {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+  }
+
+  .citation {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: start;
+  }
+
+  .source {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+    margin: 20px 0;
+  }
+
+  .signup {
+    padding: 40px 100px;
+    margin: 80px 160px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #d598ba;
+    gap: 24px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: center;
+    
+  } 
+
+  .boxheader {
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    width: 300px;
+  }
+
+  .boxtext {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  .button2 {
+    background-color: #d598ba;
+    color: #F9FAF8;
+    border-radius: 80px;
+    border: 2px;
+    border-color: #E5E7EB;
+    border-style: dotted;
+    padding: 18px 24px;
+    margin: 12px 0;
+    font-size: 18px;
+    flex: 1;
+  }
+
+
+  footer {
+    color: #E5E7EB;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(31, 43, 30)
+  }
